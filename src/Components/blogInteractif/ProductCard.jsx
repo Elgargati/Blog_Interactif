@@ -2,7 +2,7 @@ import React from "react";
 import CommentSection from "./CommentSection";
 
 function ProductCard({ product }) {
-  const thumbnail = `/images/${product.thumbnail}`;
+  const thumbnail = `/Blog_Interactif/images/${product.thumbnail}`;
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 hover:shadow-lg">
       <div className="flex justify-center">
